@@ -8,20 +8,17 @@ Khó bảo trì khi dự án lớn.
 Nên sử dụng:
 import math hoặc from math import ceil
 
+```text
 BTVN3/
-│
 ├── main.py
-│
 ├── core/
-│ ├── __init__.py
-│ ├── logistics.py
-│ └── manager.py
-│
+│   ├── __init__.py
+│   ├── logistics.py
+│   └── manager.py
 ├── utils/
-│ ├── __init__.py
-│ ├── time_helper.py
-│ └── file_helper.py
-│
+│   ├── __init__.py
+│   ├── time_helper.py
+│   └── file_helper.py
 └── data/
-├── __init__.py
-└── flights_data.py
+    ├── __init__.py
+    └── flights_data.py
